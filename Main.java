@@ -1,5 +1,6 @@
 public class Main {
         public static void main(String[] args) {
-                System.out.println("Hello World");
+                int randomNum = (int)(Math.random() * 200);
+                System.out.println(randomNum);
         }  
 }
